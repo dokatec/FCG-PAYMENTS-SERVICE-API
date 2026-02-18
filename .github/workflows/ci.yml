@@ -32,10 +32,10 @@ jobs:
             --store-password-in-clear-text
 
       - name: Restore dependencies
-        run: dotnet restore FCG-Payments.sln
+        run: dotnet restore FCG-Payments-Service.sln
 
       - name: Build
-        run: dotnet build FCG-Payments.sln --no-restore --configuration Release
+        run: dotnet build FCG-Payments-Service.sln --no-restore --configuration Release
 
       - name: Run tests
-        run: dotnet test FCG-Payments.sln --no-build --configuration Release
+        run: dotnet test FCG-Payments-Service.sln --no-build --configuration Release
