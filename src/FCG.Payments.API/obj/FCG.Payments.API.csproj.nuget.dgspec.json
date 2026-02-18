@@ -1,0 +1,359 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.API\\FCG.Payments.API.csproj": {}
+  },
+  "projects": {
+    "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.API\\FCG.Payments.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.API\\FCG.Payments.API.csproj",
+        "projectName": "FCG.Payments.API",
+        "projectPath": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.API\\FCG.Payments.API.csproj",
+        "packagesPath": "C:\\Users\\jhonatan.pacheco\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\NuGet.Config",
+          "C:\\Users\\jhonatan.pacheco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/dokatec/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.Application\\FCG.Payments.Application.csproj": {
+                "projectPath": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.Application\\FCG.Payments.Application.csproj"
+              },
+              "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.Infrastructure\\FCG.Payments.Infrastructure.csproj": {
+                "projectPath": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.Infrastructure\\FCG.Payments.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FCG.Shared": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.Application\\FCG.Payments.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.Application\\FCG.Payments.Application.csproj",
+        "projectName": "FCG.Payments.Application",
+        "projectPath": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.Application\\FCG.Payments.Application.csproj",
+        "packagesPath": "C:\\Users\\jhonatan.pacheco\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\NuGet.Config",
+          "C:\\Users\\jhonatan.pacheco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/dokatec/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.Domain\\FCG.Payments.Domain.csproj": {
+                "projectPath": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.Domain\\FCG.Payments.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.Domain\\FCG.Payments.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.Domain\\FCG.Payments.Domain.csproj",
+        "projectName": "FCG.Payments.Domain",
+        "projectPath": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.Domain\\FCG.Payments.Domain.csproj",
+        "packagesPath": "C:\\Users\\jhonatan.pacheco\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\NuGet.Config",
+          "C:\\Users\\jhonatan.pacheco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/dokatec/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.Infrastructure\\FCG.Payments.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.Infrastructure\\FCG.Payments.Infrastructure.csproj",
+        "projectName": "FCG.Payments.Infrastructure",
+        "projectPath": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.Infrastructure\\FCG.Payments.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\jhonatan.pacheco\\.nuget\\packages\\",
+        "outputPath": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\NuGet.Config",
+          "C:\\Users\\jhonatan.pacheco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/dokatec/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.Application\\FCG.Payments.Application.csproj": {
+                "projectPath": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.Application\\FCG.Payments.Application.csproj"
+              },
+              "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.Domain\\FCG.Payments.Domain.csproj": {
+                "projectPath": "C:\\dev\\repo\\fiap\\Fase_3\\Microservicos\\FCG-Payments-Service\\src\\FCG.Payments.Domain\\FCG.Payments.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+C:\dev\repo\fiap\Fase_3\FCG-Payments-Service\src\FCG.Payments.Domain\bin\Debug\net9.0\FCG.Payments.Domain.deps.json
+C:\dev\repo\fiap\Fase_3\FCG-Payments-Service\src\FCG.Payments.Domain\bin\Debug\net9.0\FCG.Payments.Domain.dll
+C:\dev\repo\fiap\Fase_3\FCG-Payments-Service\src\FCG.Payments.Domain\bin\Debug\net9.0\FCG.Payments.Domain.pdb
+C:\dev\repo\fiap\Fase_3\FCG-Payments-Service\src\FCG.Payments.Domain\obj\Debug\net9.0\FCG.Payments.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\repo\fiap\Fase_3\FCG-Payments-Service\src\FCG.Payments.Domain\obj\Debug\net9.0\FCG.Payments.Domain.AssemblyInfoInputs.cache
+C:\dev\repo\fiap\Fase_3\FCG-Payments-Service\src\FCG.Payments.Domain\obj\Debug\net9.0\FCG.Payments.Domain.AssemblyInfo.cs
+C:\dev\repo\fiap\Fase_3\FCG-Payments-Service\src\FCG.Payments.Domain\obj\Debug\net9.0\FCG.Payments.Domain.csproj.CoreCompileInputs.cache
+C:\dev\repo\fiap\Fase_3\FCG-Payments-Service\src\FCG.Payments.Domain\obj\Debug\net9.0\FCG.Payments.Domain.dll
+C:\dev\repo\fiap\Fase_3\FCG-Payments-Service\src\FCG.Payments.Domain\obj\Debug\net9.0\refint\FCG.Payments.Domain.dll
+C:\dev\repo\fiap\Fase_3\FCG-Payments-Service\src\FCG.Payments.Domain\obj\Debug\net9.0\FCG.Payments.Domain.pdb
+C:\dev\repo\fiap\Fase_3\FCG-Payments-Service\src\FCG.Payments.Domain\obj\Debug\net9.0\ref\FCG.Payments.Domain.dll
