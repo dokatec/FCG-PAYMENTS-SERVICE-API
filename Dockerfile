@@ -12,22 +12,22 @@ COPY ["nuget.config", "./"]
 RUN sed -i "s/%GH_TOKEN%/$GH_TOKEN/g" nuget.config
 
 # 4. Copia os arquivos de projeto
-COPY ["src/FCG.Users.API/FCG.Users.API.csproj", "src/FCG.Users.API/"]
-COPY ["src/FCG.Users.Domain/FCG.Users.Domain.csproj", "src/FCG.Users.Domain/"]
-COPY ["src/FCG.Users.Application/FCG.Users.Application.csproj", "src/FCG.Users.Application/"]
-COPY ["src/FCG.Users.Infrastructure/FCG.Users.Infrastructure.csproj", "src/FCG.Users.Infrastructure/"]
+COPY ["src/FCG.Payments.API/FCG.Payments.API.csproj", "src/FCG.Payments.API/"]
+COPY ["src/FCG.Payments.Domain/FCG.Payments.Domain.csproj", "src/FCG.Payments.Domain/"]
+COPY ["src/FCG.Payments.Application/FCG.Payments.Application.csproj", "src/FCG.Payments.Application/"]
+COPY ["src/FCG.Payments.Infrastructure/FCG.Payments.Infrastructure.csproj", "src/FCG.Payments.Infrastructure/"]
 
 # 5. Agora o restore terá permissão para baixar a FCG.Shared
-RUN dotnet restore "src/FCG.Users.API/FCG.Users.API.csproj"
+RUN dotnet restore "src/FCG.Payments.API/FCG.Payments.API.csproj"
 
 # 6. Copiar o restante do código fonte e compilar
 COPY . .
-WORKDIR "/app/src/FCG.Users.API"
-RUN dotnet build "FCG.Users.API.csproj" -c Release -o /app/build
+WORKDIR "/app/src/FCG.Payments.API"
+RUN dotnet build "FCG.Payments.API.csproj" -c Release -o /app/build
 
 # Estágio 2: Publicação
 FROM build AS publish
-RUN dotnet publish "FCG.Users.API.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "FCG.Payments.API.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 # Estágio 3: Runtime (Imagem final leve)
 FROM mcr.microsoft.com/dotnet/aspnet:9.0
@@ -37,4 +37,4 @@ COPY --from=publish /app/publish .
 EXPOSE 80
 EXPOSE 443
 
-ENTRYPOINT ["dotnet", "FCG.Users.API.dll"]
+ENTRYPOINT ["dotnet", "FCG.Payments.API.dll"]
