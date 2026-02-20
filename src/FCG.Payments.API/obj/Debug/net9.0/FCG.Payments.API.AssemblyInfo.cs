@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FCG.Payments.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6787a3a1ae51c337f8225d141c4fb85e0161a8bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5b414a6d7d778cf9376088d2fce147dda1f5490")]
 [assembly: System.Reflection.AssemblyProductAttribute("FCG.Payments.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FCG.Payments.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
